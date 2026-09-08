@@ -1,0 +1,66 @@
+{
+  "run_id": "20260903T025944Z-88139b",
+  "question": "How many seats will the Republican Party win in the U.S. House of Representatives in the 2026 midterm elections?",
+  "model": "gemini-3.7-flash",
+  "search_provider": "brave",
+  "today": "2026-09-02",
+  "forecast": {
+    "bucket_labels": [
+      "<=189",
+      "190-199",
+      "200-209",
+      "210-217",
+      "218-225",
+      "226-235",
+      "236-245",
+      ">=246"
+    ],
+    "probabilities": [
+      0.14,
+      0.25,
+      0.28,
+      0.18,
+      0.11,
+      0.03,
+      0.008,
+      0.002
+    ],
+    "median_seats": 204,
+    "interval_80": [
+      0,
+      225
+    ],
+    "p_republican_majority": 0.15,
+    "reasoning": "We anchor on the historical base rate of midterm elections: since WWII, the president's party has lost an average of 26 to 28 House seats, losing seats in nearly 90% of midterm cycles (with only 1998 and 2002 as notable exceptions). \n\nEntering the 2026 cycle from a narrow baseline of approximately 220 seats won in 2024, a standard historical loss of 15 to 30 seats places the central expectation in the 190-209 range. However, high political polarization and redistricting have reduced the number of pure swing districts relative to mid-20th-century cycles, meaning losses may be somewhat more muted (resembling the 2022 midterm where the incumbent party lost only 9 seats, or 2014 where they lost 13). \n\nConsequently, we allocate the highest probability mass to the 200-209 (28%) and 190-199 (25%) buckets, followed by 210-217 (18%) and <=189 (14%), reflecting an ~85% likelihood of Democrats flipping the chamber, with a ~15% probability that Republicans hold or expand their majority (primarily in the 218-225 bucket).",
+    "key_drivers": [
+      "Historical post-WWII midterm penalty for the president's party averaging 26-28 House seat losses",
+      "Narrow starting baseline of 220 seats won by Republicans in the 2024 elections, limiting the maximum exposure compared to large majorities",
+      "Polarization and redistricting reducing the total number of highly competitive swing seats",
+      "Generic congressional ballot polling indicating Democratic advantage in the midterm cycle"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections",
+        "title": "",
+        "why_it_mattered": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/United_States_midterm_election",
+        "title": "",
+        "why_it_mattered": ""
+      },
+      {
+        "url": "https://news.gallup.com/poll/242093/midterm-seat-loss-averages-unpopular-presidents.aspx",
+        "title": "",
+        "why_it_mattered": ""
+      },
+      {
+        "url": "https://www.brookings.edu/articles/what-history-tells-us-about-the-2026-midterm-elections/",
+        "title": "",
+        "why_it_mattered": ""
+      }
+    ],
+    "status": "complete",
+    "notes": ""
+  }
+}

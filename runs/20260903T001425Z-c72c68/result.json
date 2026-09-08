@@ -1,0 +1,66 @@
+{
+  "run_id": "20260903T001425Z-c72c68",
+  "question": "How many seats will the Republican Party win in the U.S. House of Representatives in the 2026 midterm elections?",
+  "model": "gemini-3.5-flash",
+  "search_provider": "brave",
+  "today": "2026-09-02",
+  "forecast": {
+    "bucket_labels": [
+      "<=189",
+      "190-199",
+      "200-209",
+      "210-217",
+      "218-225",
+      "226-235",
+      "236-245",
+      ">=246"
+    ],
+    "probabilities": [
+      0.1,
+      0.23,
+      0.35,
+      0.2,
+      0.1,
+      0.015,
+      0.004,
+      0.001
+    ],
+    "median_seats": 204,
+    "interval_80": [
+      0,
+      225
+    ],
+    "p_republican_majority": 0.12,
+    "reasoning": "We anchor on the historical base rate of midterm elections since 1946: in 18 out of 20 midterms (90%), the president's party has lost seats in the House. With Donald Trump in the White House, the Republicans are the incumbent party. Their starting point is an extremely narrow 220-215 majority won in the 2024 elections.\n\nAs of September 2, 2026, Trump's approval rating is deeply underwater, hovering between 32% and 41% (averaging around 35-36%). Historically, when a president's approval is below 50%, their party has lost seats in 100% of midterms. Furthermore, the generic congressional ballot shows a strong and stable lead for Democrats, sitting at D+6.6 (or D+7.6 with a likely voter adjustment) in Nate Silver's Silver Bulletin average.\n\nGiven these fundamentals, the House is highly likely to flip to the Democrats. A D+7 generic ballot environment typically translates to a 15-30 seat gain for the out-party. Due to high polarization and a limited number of competitive districts, the swing may be slightly more muted than historical waves, making a 10-20 seat loss the most probable outcome (putting Republicans in the 200-209 range). We assign a 12% probability to Republicans retaining the majority (>=218 seats), which aligns with Nate Silver's model describing a Republican hold as a 'fairly low probability path'. Our distribution peaks at 200-209 seats (35%), with significant weight also in 190-199 (23%) and 210-217 (20%).",
+    "key_drivers": [
+      "Presidential approval rating (Donald Trump is underwater at 32-41% approval)",
+      "Generic congressional ballot polling (Democrats lead by D+6.6 to D+7.6 in Silver Bulletin)",
+      "Historical midterm trends (the president's party almost always loses seats, especially when the president is unpopular)",
+      "Narrow Republican starting majority (220-215 baseline from the 2024 election)"
+    ],
+    "sources": [
+      {
+        "url": "https://theconversation.com/for-80-years-the-presidents-party-has-almost-always-lost-house-seats-in-midterm-elections-a-pattern-that-makes-the-2026-congressional-outlook-clear-271605",
+        "title": "",
+        "why_it_mattered": ""
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "",
+        "why_it_mattered": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections",
+        "title": "",
+        "why_it_mattered": ""
+      },
+      {
+        "url": "https://www.app.com/story/news/2026/08/13/trump-approval-rating-aug-13-2026/91283891007/",
+        "title": "",
+        "why_it_mattered": ""
+      }
+    ],
+    "status": "incomplete",
+    "notes": "forced close: step budget exhausted"
+  }
+}
